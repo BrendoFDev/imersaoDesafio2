@@ -1,0 +1,136 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(29, 37, 105);
+    color: white;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form h1{
+    text-shadow: 1px 1px 40px black;
+}
+
+.playbtt button{
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin:10px;
+    transition: 0.1s;
+}
+
+.playbtt button:hover{
+    box-shadow: 1px 1px 10px white;
+}
+
+.game{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+div.gameData{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20pt;
+}
+
+div.points{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+div.point{
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    margin: 10px;
+    border-radius: 100px;
+}
+
+
+.enemyOptions{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+div.enemyButtons{
+    margin:10px;
+    border:2px solid white;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+div#enemyRock{
+    background: url("./images/rock.png");
+    background-size:cover;
+}
+
+div#enemyPaper{
+    background: url("./images/paper.png");
+    background-size:cover;
+}
+
+div#enemyScissor{
+    background: url("./images/scissor.png");
+    background-size:cover;
+}
+
+
+.options{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+div.buttons{
+    margin:10px;
+    border:2px solid white;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+div.buttons:hover{
+    border: 2px solid black;
+    box-shadow: 1px 1px 20px black;
+}
+
+div#rock{
+    background: url("./images/rock.png");
+    background-size:cover;
+}
+
+div#paper{
+    background: url("./images/paper.png");
+    background-size:cover;
+}
+
+div#scissor{
+    background: url("./images/scissor.png");
+    background-size:cover;
+}

@@ -10,21 +10,20 @@
     <div class="form">
         <h1>Pedra, papel, tesoura com seu maior inimigo!</h1>
         <div class="playbtt">
-            <button type="button">Jogar!</button>
+            <button id="bttPlay" type="button">Jogar!</button>
         </div>
         <div class="game">
             <div class="gameData">
                 <div class="timer">
-                    Tempo: <span>30</span> seg.
+                    Tempo: <span id="secTimer">0</span> seg.
                 </div>
                 <div class="points">
                     Pontos:
-                    <div class="point"></div>
-                    <div class="point"></div>
-                    <div class="point"></div>
+                    <div class="point" id="point"></div>
+                    <div class="point" id="point"></div>
+                    <div class="point" id="point"></div>
                 </div>
             </div>
-            
             <div class="enemyTittle">
                 <h1>Opções do inimigo</h1>
             </div>
@@ -39,7 +38,6 @@
     
                 </div>
             </div>
-
             <div class="optionTittle"> 
                 <h1>Escolha 1 opção!</h1>
             </div>
@@ -56,5 +54,6 @@
             </div>
         </div>
     </div>
+    <script src="./index.js"></script>
 </body>
 </html>

@@ -49,6 +49,7 @@ div.gameData{
 }
 
 div.points{
+    gap:10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -120,17 +121,17 @@ div.buttons:hover{
     box-shadow: 1px 1px 20px black;
 }
 
-div#rock{
+div#Rock{
     background: url("./images/rock.png");
     background-size:cover;
 }
 
-div#paper{
+div#Paper{
     background: url("./images/paper.png");
     background-size:cover;
 }
 
-div#scissor{
+div#Scissor{
     background: url("./images/scissor.png");
     background-size:cover;
 }
